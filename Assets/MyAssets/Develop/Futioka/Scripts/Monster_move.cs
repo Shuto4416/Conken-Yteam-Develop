@@ -40,7 +40,8 @@ public class Monster_move : MonoBehaviour
         transform.position += Time.deltaTime * speed * direction;
 
         if(time > shoot_time){
-            if (Vector2.Distance(transform.position, user.transform.position) > 10f){
+            float distanceToUser = Mathf.Sqrt(Mathf.Pow(transform.position.x - user.transform.position.x, 2) + Mathf.Pow(transform.position.y - user.transform.position.y, 2));
+            if (distanceToUser > 20f){
                 
                 GameObject sh = Instantiate(shoot, transform.position, Quaternion.identity); //弾のPrefab生成
                 shoot_move = sh.GetComponent<Shoot_move>();

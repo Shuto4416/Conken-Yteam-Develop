@@ -119,5 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1134866f251d5ff4d9b15540dd6d7edd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  user: {fileID: 1640607045705309383, guid: c02352eea66f9464e86b44067a673db5, type: 3}
-  speed: 20
+  speed: 10
+  shoot_time: 2
+  shoot_move: {fileID: -7777839024008443673, guid: fb069edec8c44de4d9b3c50a913e0019, type: 3}
+  shoot: {fileID: 2512073742012594602, guid: fb069edec8c44de4d9b3c50a913e0019, type: 3}

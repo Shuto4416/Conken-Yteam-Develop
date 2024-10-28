@@ -37,7 +37,7 @@ public class SetMaterial : MonoBehaviour
             return Ran();
         }
         else{
-            float[] pl = {pl_x, pl_y}; 
+            float[] pl = {pl_x, pl_y};
             return pl;
         }
     }
