@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a53228a0cb7d9024d88f0906f30d0205, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -699,10 +699,15 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 70a22aeb8258b1b4281f6f4731b2ce45, type: 2}
   - {fileID: 2100000, guid: 9c17b6527e7d87242aaffa6e50afd1bf, type: 2}
   - {fileID: 2100000, guid: e6281364ffed78e4889f21be38ddd77b, type: 2}
+  shoot_material:
+  - {fileID: 2100000, guid: 748c1cd002bac9e46b04f07dea1c7aff, type: 2}
+  - {fileID: 2100000, guid: e0c288a4a15667f4c93ab7b4c9dc537e, type: 2}
+  - {fileID: 2100000, guid: 8d9f39e53e27eaf4783b9b86ebd8e021, type: 2}
+  - {fileID: 2100000, guid: a2489dc55fd440b4381db7ed3fa5c6d6, type: 2}
   rangeA: {fileID: 1422011443}
   rangeB: {fileID: 1374169003}
   exclusionRadius: 20
-  timing: 2
+  timing: 1
   monster_limit: 20
 --- !u!4 &2048914957
 Transform:
