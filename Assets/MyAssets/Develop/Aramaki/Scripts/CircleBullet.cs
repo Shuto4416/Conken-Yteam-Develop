@@ -24,7 +24,7 @@ namespace Aramaki.Script.Bullet.Circle {
             //float zAngle = Mathf.Atan2(velocity.y, velocity.x) * Mathf.Rad2Deg - 90.0f;
             transform.rotation = Quaternion.Euler(0, 0, angle);
             // 毎フレーム、弾を移動させる
-            transform.position += transform.up * speed * Time.deltaTime;
+            transform.position += -transform.up * speed * Time.deltaTime;
             angle++;
         }
     }
